@@ -1,0 +1,319 @@
+html { overflow-y: scroll; }
+
+body {
+    min-width: 45em;
+    overflow: hidden;
+    background-color: #EEEFF0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#funds-data {
+    height: 18em;
+}
+
+.popuptext {
+    border-radius: 6px;
+    border: 1px solid;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    float: auto;
+}
+
+#fund {
+    width: 32em;
+    padding: 5px 5px;
+    margin-right: 1em;
+}
+
+#fund-options {
+    width: 28em;
+    border: 1px solid;
+    display: none;
+    background-color: #fff;
+}
+
+button {
+    display: inline-block;
+    background-color:#006dcc;
+    border: none;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    padding: 7px;
+}
+
+button:hover {
+    background-color: #04c;
+    cursor: pointer;
+}
+
+table, th, td {
+    border-right: 0.5px;
+    border-collapse: collapse;
+}
+
+table tr th {
+    /*background-color: #292b2c;*/
+    background-color: #454545;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+table tr td {
+    background-color: #fff;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+#add-mutual-fund {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+td#positive-percentage {
+    background-color: lightgreen;
+    width: 20%;
+}
+
+td#negative-percentage {
+    background-color: #FA8072;
+}
+
+table div {
+    height: 18em;
+}
+
+#funds-list {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+#bar {
+    font-size: 1.2em;
+    color: dodgerblue;
+    font-style: italic;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#clear, #feature {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: dodgerblue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#feature:hover {
+    color: #2349F5;
+}
+
+#clear:hover {
+    color: #E74D5F;
+}
+
+#funds-list:hover {
+    color: #2349F5;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px lightgrey;
+}
+
+#fund-options :hover {
+    background-color:#80c9f7;
+}
+
+#mutual-fund {
+    color: #000;
+    text-decoration: none;
+}
+
+#mutual-fund:hover {
+    color: #04c;
+}
+
+.remove-fund {
+    cursor: pointer;
+    box-shadow: -1px 0px 10px 0px #aaaaaa;
+}
+
+.remove-fund:hover {
+    cursor: pointer;
+    box-shadow: -1px 0px 10px 0px #F97F7F;
+}
+
+#popup h4 {
+    font-style: italic;
+}
+
+#popup {
+    display: none;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h3 a {
+    color: #04c;
+    font-size: 1.2em;
+}
+
+#loading-text {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2em;
+}
+
+#funds-table {
+    display: none
+}
+
+#details-page {
+    display: none
+}
+
+.go-back {
+    cursor: pointer;
+}
+
+.negative-nav {
+    color: red;
+}
+
+.positive-nav {
+    color: green;
+}
+
+.additional-details-table {
+    width: 100%;
+}
+
+.additional-details-table tr td {
+    background-color: transparent;
+}
+
+.returns-table {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.returns-table tr td {
+    background-color: transparent;
+}
+
+.details-page-image img {
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.details-page-text {
+    width: 100%;
+    text-align: center;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.details-page-text-name {
+    font-size: 1.2em;
+}
+
+.close-details-page {
+    margin-left: 95%;
+    margin-top: 2%;
+    cursor: pointer;
+    color: #E74D5F;
+    font-size: 1.5em;
+}
+
+#details-page {
+    background-color: #fff;
+    font-size: 1.1em;
+}
+
+.details-page-hr {
+    border-color: #EEEFF0;
+}
+
+.details-page-date {
+    color: grey;
+}
+
+#chart-container {
+    background-color: #fff;
+    display: none;
+}
+
+.go-to-details:hover {
+    background-color: rgb(250, 249, 249);
+}
+
+#instamojo-donate-button {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: dodgerblue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.im-checkout {
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+div.im-checkout {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+div.im-checkout a {
+    color: dodgerblue;
+}
+
+div.im-checkout a:hover {
+    color: #2349F5;
+}
+
+.chart-duration {
+    border: none;
+    display: inline-block;
+    margin-left: 4%;
+    box-shadow: 1px 1px 6px 1px grey;
+    margin-bottom: 2%;
+    width: 39%;
+}
+
+.chart-duration-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 3%;
+}
+
+.chart-duration-button:hover {
+    background-color: #EEEFF0;
+    cursor: pointer;
+}
